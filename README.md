@@ -1,1 +1,1 @@
-<h1>codigos em linguagem c, dos exercicios de programação da faculdade</h1>
+<h1>Códigos em linguagem c, dos exercicios de programação da faculdade</h1>
