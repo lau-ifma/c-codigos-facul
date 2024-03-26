@@ -1,20 +1,23 @@
-// incompleto
+
+// completo
 #include <stdio.h>
 
 void main(){
-    int A, n;
+    int N, n, d, A;
     printf("Digite o valor de (N): ");
-    scanf("%d", &n);
-    int i, x;
-    A = n;
+    scanf("%d", &N);
 
-    for (i = 1 ; i <= n ; i++){
-        A += (n -i) / i+1 ;
-
+    n = N;
+    d = 1;
+    A = 0; 
+    
+    while (d<= N)
+    {
+        A = A + (n/d);
+        n-= 1;
+        d+= 1;  
     }
 
-    printf("Valor de A = %d", A );
+    printf("Valor de A = %i", A );
 
-
-   
 }
