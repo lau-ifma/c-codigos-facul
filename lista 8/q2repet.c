@@ -1,5 +1,4 @@
-
-// incompleto
+// completo
 #include <stdio.h>
 
 void main(){
